@@ -1,0 +1,264 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: "Merriweather", serif;
+    background-color: #fffdd0;
+}
+
+.top-container {
+    background-color: #CBC3E3;
+    width: 100%;
+    height: 550px;
+    padding-top: 5px;
+
+}
+
+.topleft {
+    margin-top: -8px;
+    width: 100px;
+    position: absolute;
+    top: 8px;
+    left: 1px;
+    font-size: 18px;
+    mix-blend-mode: multiply;
+
+
+
+}
+
+.topright {
+    margin-top: -8px;
+    width: 100px;
+    position: absolute;
+    top: 8px;
+    right: 1px;
+    font-size: 18px;
+    mix-blend-mode: multiply;
+}
+
+
+
+.Title-text {
+    padding: 50px;
+    position: relative;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 5.725rem;
+    color: #ffde47;
+    margin-top: 100px;
+   
+}
+
+.Title-text > h2 {
+    color: #ffde47;
+    font-size: 2.8625rem;
+    font-family: 'Hubballi', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 50px;
+   
+
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.middle-container {
+
+    margin: 100px 0;
+}
+
+.profile {
+    display: block;
+}
+
+.profilepic {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+}
+
+.profile>h2 {
+    font-family: 'Cedarville Cursive', cursive;
+    color: #000000;
+    font-size: 40px;
+    padding: 40px;
+    margin-bottom: -10px;
+}
+
+.aboutme {
+    width: 30%;
+    margin: auto;
+    margin-top: 25px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #8f3da0;
+    font-family: 'Hubballi', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Oswald', sans-serif;
+}
+
+hr {
+    border: dotted #000000 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.hobbies > h2 {
+    font-size: 40px;
+    color: #000000;
+    padding-bottom: 10px;
+    margin-top: -25px;
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+.hobbies > ul{
+    color:  #8f3da0;
+    font-weight: bolder;
+    font-family: 'Hubballi', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Oswald', sans-serif;
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.skills > h2 {
+    font-size: 40px;
+    color: #000000;
+    font-family: 'Cedarville Cursive', cursive;
+    
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 3rem;
+    column-gap: 3rem;
+    
+}
+
+.developer{
+    display: block;
+}
+
+.coding{
+    display: block;
+    margin-top: -7px;
+}
+
+.technician{
+    display: block;
+}
+.desktop{
+    display: block;
+    margin-top: -7px;
+}
+
+.typing{
+    width: 350px;
+    height: 350px;
+    margin-left: 30px;
+}
+
+.tech{
+    width: 350px;
+    height: 350px;
+    margin-left: 30px;
+}
+
+
+
+h3{
+    color: #8f3da0;
+    font-size: 2rem;
+}
+
+
+p {
+    line-height: 2;
+    font-weight: bold;
+    font-size: 27px;
+    
+}
+
+hr {
+    border: dotted #000000 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.contact-me{
+    display: block;
+}
+
+.contact-me > h2 {
+    color:#8f3da0;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    padding-bottom: 38px;
+}
+
+.contact-me > h3 {
+    color:#8f3da0;
+    font-weight: normal;
+    padding-bottom: 10px;
+    font-family: 'Hubballi', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Oswald', sans-serif;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+    line-break: 2;
+    font-size: 1.6rem;
+}
+
+.btn {
+    background-color: #8f3da0;
+   font-size: 30px;
+   border-radius: 20px;
+   font-family: 'Hubballi', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Oswald', sans-serifs;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+}
+
+.btn:hover{
+    background-color: #ffde47;
+}
+
+.bottom-container{
+    margin-top: 75px;
+    margin-bottom: -100px;
+    height: 270px;
+    background-color: #CBC3E3;
+    padding: 50px 0 20px;
+}
+
+.footer-link{
+    font-size: 2rem;
+    color: #ffde47;
+    text-decoration: none;
+    margin: 25px ;
+}
+
+.bottom-container, footer > p {
+    color: #ffde47;
+    font-size: 2rem;
+    padding: 40px 30px 50px;
+}
